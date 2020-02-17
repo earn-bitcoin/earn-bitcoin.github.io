@@ -1,6 +1,6 @@
 body {
 	/*background: url(img/background74.jpg) center center/cover no-repeat;*/
-	background: url(img/background74.jpg);
+	background: url(img/background74.jpg) center/cover;
 }
 h1 {
 	text-align: center;
