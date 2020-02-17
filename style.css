@@ -34,4 +34,7 @@ h1 {
 		height: 900px;
 		margin-top: 50px;
 	}
+	h1 {
+		font-size: 25px;
+	}
 }
