@@ -17,11 +17,15 @@ h1 {
 }
 .box {
 	width: 200px;
-	height: 200px;
 }
 .box img {
 	width: 100%;
 	border-radius: 50px;
+}
+
+.describe {
+	text-align: center;
+	font-family: Roboto;
 }
 
 .bordered {
@@ -32,10 +36,16 @@ h1 {
 	.content {
 		width: 200px;
 		height: 900px;
-		margin-top: 50px;
+		margin-top: 30px;
 		margin-bottom: 50px;
 	}
 	h1 {
 		font-size: 25px;
+	}
+	.box {
+		margin-top: 20px;
+	}
+	.box img {
+		margin-top: 10px;
 	}
 }
