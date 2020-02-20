@@ -23,18 +23,30 @@ h1 {
 	border-radius: 50px;
 }
 
+.payeer {
+	width: 200px;
+}
+.payeer img {
+	width: 100%;
+	border-radius: 50px;
+}
+
+.p1_text, .p2_text {
+	display: none;
+		
+}
+
 .describe {
-	text-align: center;
-	font-family: Roboto;
+	display: none;
 }
 
 .bordered {
 	border: 2px solid gold;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 	.content {
-		width: 200px;
+		width: 250px;
 		height: 900px;
 		margin-top: 30px;
 		margin-bottom: 50px;
@@ -43,9 +55,29 @@ h1 {
 		font-size: 25px;
 	}
 	.box {
+		width: 250px;
 		margin-top: 20px;
+		border: 1px solid grey;
+		border-radius: 8px;
+		padding: 20px;
 	}
 	.box img {
 		margin-top: 10px;
+	}
+	.describe {
+		display: block;
+		text-align: center;
+		font-family: Roboto;
+	}
+	.payeer {
+		margin-top: 50px;
+		border: 1px solid grey;
+		border-radius: 8px;
+		padding: 20px;
+	}
+	.p1_text, .p2_text {
+		display: block;
+		font-family: Roboto;
+		text-align: center;
 	}
 }
